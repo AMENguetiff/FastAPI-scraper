@@ -27,4 +27,4 @@ The scraped data is stored in an SQLite database for persistence. I created a da
 Dockerization: To facilitate deployment and distribution, I dockerized the entire application along with its dependencies. This ensures consistency across different environments and simplifies the deployment process
 ## 📚 Documentation
 
-For detailed documentation, please visit our [official documentation](https://pypi.org/project/dashboard-dataviz-panel/0.1.3/)
+For detailed documentation, please visit our https://fastapi.tiangolo.com/
