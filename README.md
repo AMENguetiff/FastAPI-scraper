@@ -1,6 +1,7 @@
-# FastAPI-scraper
+# FastAPI-scraper                                                                                      
 
-We can acknowledge that scraping data from Facebook poses unique challenges due to the platform's policies, dynamic page structures, and security measures. However, I've risen to this challenge by developing a comprehensive solution leveraging some advanced technologies. This solution empowers the creation of a robust service capable of efficiently scraping and securely storing data from public Facebook pages. The project encompasses several key components, including a FastAPI application serving as the backbone of the service, Uvicorn for running the application, Selenium for web scraping, and SQLite for database management. Together, these components form a cohesive and scalable solution to tackle the complexities of scraping data from Facebook.
+We can acknowledge that scraping data from Facebook poses unique challenges due to the platform's policies, dynamic page structures, and security measures. However, I've risen to this challenge by developing a comprehensive solution leveraging some advanced technologies. This solution empowers the creation of a robust service capable of efficiently scraping and securely storing data from public Facebook pages. The project encompasses several key components, including a FastAPI application serving as the backbone of the service, Uvicorn for running the application, Selenium for web scraping, and SQLite for database management. Together, these components form a cohesive and scalable solution to tackle the complexities of scraping data from Facebook.  
+
 
 ### 🔍 FastAPI Application
 
