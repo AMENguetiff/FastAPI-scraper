@@ -23,9 +23,9 @@ def scrape_data(username, password, page_url):
         username_field = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='email']")))
         password_field = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='pass']")))
         username_field.clear()
-        username_field.send_keys("somaah03@gmail.com")
+        username_field.send_keys("")
         password_field.clear()
-        password_field.send_keys('met0ri1337!!')
+        password_field.send_keys('')
         login_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[name='login']")))
         login_button.click()
         sleep(1)
@@ -36,8 +36,6 @@ def scrape_data(username, password, page_url):
 
         # Extract posts
         posts = driver.find_elements(By.XPATH, "//div[contains(@class, 'du4w35lb k4urcfbm l9j0dhe7 sjgh65i0')]")
-        # Posts might have different classes, so we use a general selector
-
         # Initialize lists to store data
         post_data = []
 
@@ -84,7 +82,7 @@ def scrape_data(username, password, page_url):
         driver.quit()
 
 # Test the function
-username = "somaah03@gmail.com"
-password = "met0ri1337!!"
+username = ""
+password = ""
 page_url = "https://www.facebook.com/amazonwebservices"
 scrape_data(username, password, page_url)
