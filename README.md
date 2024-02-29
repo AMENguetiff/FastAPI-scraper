@@ -33,5 +33,5 @@ To facilitate deployment and distribution, I dockerized the entire application a
 
 For detailed documentation, please visit https://fastapi.tiangolo.com/
 
-## 📦 Module
+## 🚀 Showcase
 In this section, I'll showcase screenshots captured from the localhost after running our FastAPI application.
