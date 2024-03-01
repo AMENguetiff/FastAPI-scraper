@@ -1,9 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from scraper import scrape_data
-import sys
-
-sys.path.append('/app')
 
 app = FastAPI()
 

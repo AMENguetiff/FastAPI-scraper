@@ -12,7 +12,7 @@ def database(post_data):
                     Likes TEXT,
                     Shares TEXT,
                     Comments INTEGER,
-                    UsersINTEGER)''')
+                    Users INTEGER)''')
 
     # Insert data into the table
     for post in post_data:
