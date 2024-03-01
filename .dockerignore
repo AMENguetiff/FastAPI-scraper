@@ -1,0 +1,5 @@
+myenv/
+__psycache__
+*.myenv
+*.myenv*
+meynv.*
