@@ -9,7 +9,7 @@ The core of the project is a FastAPI application serving as the entry point for 
 
 To start we should establish and configure a virtual environment and installing all the necessary requirements. 
 
-   ##### python -m venv venv
+   ##### python -m venv myvenv
    
    ##### pip install [ALL REQUIRMENTS]
    
