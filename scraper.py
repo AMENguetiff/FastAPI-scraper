@@ -55,7 +55,7 @@ def scrape_data(username, password, page_url):
 
             # Extract number of comments
             try:
-                comment_path = post.find_element(By.XPATH, ".//a[contains(@href, '/ufi/reaction/profile/browser/')]//span").click()
+                post.find_element(By.XPATH, ".//a[contains(@href, '/ufi/reaction/profile/browser/')]//span").click()
                 WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "d2edcug0 hpfvmrgz qv66sw1b c1et5uql")))
                 comments_count = len(post.find_elements(By.XPATH, ".//div[contains(@class, 'kvgmc6g5 jb3vyjys rz4wbd8a qt6c0cv9 a8c37x1j')]//span[contains(@dir, 'auto')]"))
             except:
