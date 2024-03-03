@@ -29,8 +29,6 @@ def scrape_data(username, password, page_url):
         login_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[name='login']")))
         login_button.click()
         sleep(1)
-
-        # Navigate to the Facebook page
         driver.get(page_url)
         sleep(2) 
 

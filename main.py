@@ -7,7 +7,7 @@ app = FastAPI()
 @app.get("/scrape/{page_url}")
 async def scrape(page_url: str, username: str, password: str):
     try:
-        # Call the scraping function with appropriate credentials
+        # Call the scraping function
         scrape_data(username, password, page_url)
         return {"message": "Scraping completed successfully"}
 
