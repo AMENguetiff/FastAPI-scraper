@@ -35,3 +35,4 @@ For detailed documentation, please visit https://fastapi.tiangolo.com/
 
 ## 🚀 Showcase
 In this section, I'll showcase screenshots captured from the localhost after running our FastAPI application.
+![image](https://github.com/AMENguetiff/FastAPI-scraper/assets/121358015/9fb9dfdd-439d-4729-813a-ab91f4c7260d)
