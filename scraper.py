@@ -32,14 +32,12 @@ def scrape_data(username, password, page_url):
 
         # Navigate to the Facebook page
         driver.get(page_url)
-        sleep(2)  # Wait for page to load
+        sleep(2) 
 
         # Extract posts
         posts = driver.find_elements(By.XPATH, "//div[contains(@class, 'du4w35lb k4urcfbm l9j0dhe7 sjgh65i0')]")
-        # Initialize lists to store data
         post_data = []
 
-        # Loop through each post
         for post in posts:
             # Extract post details
             try:
@@ -71,7 +69,6 @@ def scrape_data(username, password, page_url):
             except:
                 users_commented = 0
 
-            # Store post data
             post_data.append({"Post Content": post_content, "Likes": likes, "Shares": shares, "Comments Count": comments_count, "Users Commented": users_commented})
 
         # Store scraped data into the database
